@@ -1,6 +1,7 @@
 import json
 import dataclasses
-from typing import Any, Callable, Type, Union, assert_never
+from typing import Any, Callable, Type, Union
+from typing_extensions import assert_never
 from dreamberd.base import NonFormattedError, Token, TokenType
 
 # BAD PRACTICE !!!
