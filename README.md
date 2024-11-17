@@ -9,10 +9,7 @@ This is incredibly slow. My implementation of DreamBerd is suboptimal, which its
 You can install DreamBerd from PyPi, by doing any the following:
 
 ```
-$ pip install dreamberd 
-$ pip install "dreamberd[input, globals]"
-$ pip install "dreamberd[input]"
-$ pip install "dreamberd[globals]"
+$ pip install dreamberd-sigma
 ```
 
 Each of these commands installs DreamBerd with the respective dependencies. `input` installs the `pynput` package and allows the use of `after` statements and event watchers. `globals` installs `PyGithub` and allows you to declare `const const const` variables that are publically stored using GitHub. Note: to use the latter, you must enter a [Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) in the `GITHUB_ACCESS_TOKEN` environment variable.
